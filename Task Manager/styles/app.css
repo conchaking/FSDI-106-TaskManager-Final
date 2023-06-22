@@ -1,0 +1,73 @@
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32JgToBZR6EIf1DJmebLVYdqyqN-J8vklp-wn4truDXHdxiQUJ3Mre55I2BBqDHBlluE&usqp=CAU');
+    background-size: repeat;
+}
+
+.pending-Task{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #333;
+    padding-bottom: 10px;
+}
+
+main {
+    display:flex;
+}
+
+.list {
+    background-color: white;
+    flex: 5;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnUqH361B-fcHd-MyFctwvnDLokiWvxyxPg&usqp=CAU');
+    background-size: cover;
+}
+
+.info {
+    background-color: rgba(218, 118, 4, 0.326);
+    flex: 3;
+    padding:20px 15px;
+    height: 110vh;
+    /* clockwise values */
+    /* 1 ->all sides */
+    /* top/bottom left/right */
+    /* top right bottom left */
+}
+
+#iImportant {
+    font-size: 32px;
+    color: #6a6b6c;
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+}
+
+#btnDelete {
+    position: absolute;
+    
+}
+
+.task {
+    display: flex;
+    border: 1px solid #bebebf;
+    margin: 10px 15px 0 15px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.task .details {
+    flex: 5;
+}
+
+.task label {
+    flex: 1;
+}
